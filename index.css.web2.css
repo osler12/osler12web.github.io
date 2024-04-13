@@ -1,0 +1,231 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: rgb(206, 216, 204);
+}
+
+#contenedor10{
+	width: 960px;
+	margin: auto;
+	
+    
+
+}
+
+#t7{
+	margin-bottom: 50px;
+}
+
+header{
+	background: rgb(4, 9, 7);
+	height: 90px;
+	border-radius:20px;
+
+	
+
+}
+
+ header img{
+	line-height: 100px;
+	margin-left: 10px;
+	float: left;
+	margin-top: -57px;
+	
+	
+}
+
+header h2{
+	color: #009Aff;
+	line-height: 100px;
+	font-size: 25px;
+	margin-left: 25px;
+text-align:center;
+margin-left: 50px;
+	
+}
+
+ nav{
+position: absolute;
+width: 800px;
+height: 50px;
+background:#142675;
+border-radius: 8px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 89px;
+font-size: 600PX;
+
+}
+
+nav a{
+position: relative;
+display: inline-block;
+font-size: 500PX;
+font-weight: 700px;
+color: #fff;
+text-decoration: none;
+padding: 0 67px;
+z-index: 1;
+
+}
+nav span{
+	position:absolute ;
+	top: 0;
+	left: 0;
+	width: 95px;
+	height: 100%;
+	background: linear-gradient(45deg, #009AFF,#CED8CC );#CED8CC.#FF0000
+	border-radius: 8px;
+	transition: .5s;
+}
+nav a:nth-child(1):hover~span
+{
+	left: 0;
+}
+nav a:nth-child(2):hover~span
+{
+	left: 165px;
+}
+nav a:nth-child(3):hover~span
+{
+	left: 333px;
+	width: 110px;
+}
+nav a:nth-child(4):hover~span
+{
+	left: 510px;
+	width: 115px;
+}
+nav a:nth-child(5):hover~span
+{
+	left: 690px;
+	width: 110px;
+}
+
+nav a{
+	font-size:16px;
+}
+
+
+#daniel1{
+	float: left;
+	width: 960px;
+	height: 1708px;
+	background: #f6f6f6;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	border: 3px solid;
+	border-top-right-radius: 90px;
+	border-top-left-radius: 90px;
+	border-color: #142675;
+	text-align: center;
+
+
+
+
+}
+
+h1 {
+    font-size: 24px;
+    background-color: #CED8CC;
+    border: 4px solid;
+}
+
+ #para {
+    font-size: 16px;
+    margin: auto;
+    background: #ff8000;
+    width: 600px;
+    height: 235px;
+    border: 4px solid;
+    line-height: 1,10;
+    
+}
+
+img.bordered-image {
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 500px;
+    height: 235px;
+    margin-top: -30PX;
+    margin-bottom: 5PX;
+    line-height: 1,4px;
+}
+
+.large-paragraph {
+    font-size: 20px;
+    overflow-y: scroll;
+    height: 200px;
+    font-size: 19px;
+}
+
+
+#para2 h1 {
+	font-size: 24px;
+    background-color: #009AFF;
+    border: 4px solid;
+}
+
+.image-container {
+    display: inline-block;
+   
+    margin: 20px;
+}
+.aligned-img {
+    width: 300px;
+    height: 200px;
+}
+#six-months {
+    vertical-align: text-top;
+
+}
+#one-year {
+    vertical-align: baseline;
+}
+#two-years {
+    vertical-align: text-bottom;
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+
+  
+  
+}
+
+ #para2 h1{
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  font-size: 20px;
+  color: black;
+  border-style: hidden;
+ border: 2px solid ;
+  border-color: black;
+  
+}
+
+ 
